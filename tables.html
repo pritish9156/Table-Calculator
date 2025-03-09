@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables Calculator - HTML</title>
+    <link rel="stylesheet" href="tables.css">
+  </head>
+  <body>
+    <header>
+      <h1>Tables Calculator Web Application</h1>
+    </header>
+    <div class="borderdiv"></div>
+    <main>
+      <section class="User">
+        <div class="userValue">
+            <form id="clacForm" onsubmit="calculate(event)">
+                <span id="inputBox">
+                    <label for="user_input">Enter Number : </label>
+                </span>
+                <div>
+                    <input
+                    type="number"
+                    name="user_input"
+                    id="user_input"
+                    placeholder="Enter a number"
+                    />
+                </div>
+                <button id="btn" type="submit">Calculate</button>
+            </form>
+
+            <div id="output">Result will be shown here</div>
+        </div>
+      </section>
+    </main>
+ 
+    <footer>
+      <p>Thank You For Using!</p>
+      <h3>Copyright &copy; | all rights reserved</h3>
+    </footer>
+
+    <script src="tables.js"></script>
+  </body>
+</html>

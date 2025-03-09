@@ -1,0 +1,75 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: azure;
+}
+
+main {
+    background-color: azure;
+}
+
+.borderdiv {
+    background-color: black;
+    height: 20px;
+
+}
+
+.User {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: -1px;
+}
+
+.userValue {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+    word-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#user_input {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+span {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#btn {
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    padding: 3px;
+}
+
+#output {
+    border: 2px solid rgb(236, 233, 233);
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 50px;
+    font-size: medium;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 40px;
+    border: 2px solid white;
+}
